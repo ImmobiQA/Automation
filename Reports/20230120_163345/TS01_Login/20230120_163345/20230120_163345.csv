@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01_Login,Chrome 108.0.0.0,,,2023-01-20 16:34:04,2023-01-20 16:34:29,25.199s,FAILED
+,,,,,,,
+Test Cases/TC01_Valid_Login,Chrome 108.0.0.0,,,2023-01-20 16:34:04,2023-01-20 16:34:16,12.182s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-20 16:34:05,2023-01-20 16:34:09,4.197s,PASSED
+"navigateToUrl(""http://172.18.49.40:8080/login"")",Chrome 108.0.0.0,,,2023-01-20 16:34:09,2023-01-20 16:34:12,3.197s,PASSED
+"setText(findTestObject(""Page_Aprodite/input_Email""), ""testsuperadmin@mailinator.com"")",Chrome 108.0.0.0,,,2023-01-20 16:34:12,2023-01-20 16:34:14,1.452s,PASSED
+"setText(findTestObject(""Page_Aprodite/input_Password""), ""test123"")",Chrome 108.0.0.0,,,2023-01-20 16:34:14,2023-01-20 16:34:15,0.899s,PASSED
+"click(findTestObject(""Page_Aprodite/Button Login""))",Chrome 108.0.0.0,,,2023-01-20 16:34:15,2023-01-20 16:34:15,0.718s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-20 16:34:15,2023-01-20 16:34:16,0.976s,PASSED
+,,,,,,,
+Test Cases/TC02_Invalid_Email,Chrome 108.0.0.0,,,2023-01-20 16:34:16,2023-01-20 16:34:20,3.747s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-20 16:34:17,2023-01-20 16:34:19,1.753s,PASSED
+"navigateToUrl(""http://172.18.49.40:8080/login"")",Chrome 108.0.0.0,,,2023-01-20 16:34:19,2023-01-20 16:34:20,0.805s,PASSED
+"setText(findTestObject(""Page_Aprodite/input_Password""), ""test123"")",Chrome 108.0.0.0,,,2023-01-20 16:34:20,2023-01-20 16:34:20,0.270s,FAILED
+,,,,,,,
+Test Cases/TC03_Invalid_Password,Chrome 108.0.0.0,,,2023-01-20 16:34:20,2023-01-20 16:34:24,3.960s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-20 16:34:21,2023-01-20 16:34:23,2.288s,PASSED
+"navigateToUrl(""http://172.18.49.40:8080/login"")",Chrome 108.0.0.0,,,2023-01-20 16:34:23,2023-01-20 16:34:24,0.867s,PASSED
+"setText(findTestObject(""Page_Aprodite/input_Email""), ""testsuperadmin@mailinator.com"")",Chrome 108.0.0.0,,,2023-01-20 16:34:24,2023-01-20 16:34:24,0.212s,FAILED
+,,,,,,,
+Test Cases/TC04_Logout,Chrome 108.0.0.0,,,2023-01-20 16:34:24,2023-01-20 16:34:29,4.802s,FAILED
+"callTestCase(findTestCase(""TC01_Valid_Login""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-20 16:34:25,2023-01-20 16:34:29,4.103s,FAILED

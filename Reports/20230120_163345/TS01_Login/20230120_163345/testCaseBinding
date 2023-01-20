@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/TC01_Valid_Login","testCaseId":"Test Cases/TC01_Valid_Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC02_Invalid_Email","testCaseId":"Test Cases/TC02_Invalid_Email","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC03_Invalid_Password","testCaseId":"Test Cases/TC03_Invalid_Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC04_Logout","testCaseId":"Test Cases/TC04_Logout","iterationVariableName":""}

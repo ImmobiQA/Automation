@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01_Login,,,,2023-01-20 16:20:26,2023-01-20 16:20:27,1.334s,ERROR
+,,,,,,,
+Test Cases/TC01_Valid_Login,,,,2023-01-20 16:20:26,2023-01-20 16:20:27,0.760s,PASSED
+return null,,,,2023-01-20 16:20:27,2023-01-20 16:20:27,0.001s,PASSED
+,,,,,,,
+Test Cases/TC02_Invalid_Email,,,,2023-01-20 16:20:27,2023-01-20 16:20:27,0.029s,ERROR
+,,,,,,,
+Test Cases/TC03_Invalid_Password,,,,2023-01-20 16:20:27,2023-01-20 16:20:27,0.007s,ERROR
+,,,,,,,
+Test Cases/TC04_Logout,,,,2023-01-20 16:20:27,2023-01-20 16:20:27,0.007s,ERROR
