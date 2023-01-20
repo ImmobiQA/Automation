@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Logout_Button</name>
+   <tag></tag>
+   <elementGuidId>3edb10c1-899a-4f89-943e-76de57fb7650</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'logout-btn' and @button = 'Logout']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='No Data'])[1]/following::span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>logout-btn</value>
+      <webElementGuid>16c20da3-d41d-4d49-ab03-836fb32cb0c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>button</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>feb9ff27-9802-4de8-91c7-1b5abd1d6c91</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

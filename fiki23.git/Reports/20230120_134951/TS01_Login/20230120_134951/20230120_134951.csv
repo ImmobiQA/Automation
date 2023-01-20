@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01_Login,Chrome 108.0.0.0,,,2023-01-20 13:50:07,2023-01-20 13:51:00,53.768s,PASSED
+,,,,,,,
+Test Cases/TC01_Valid_Login,Chrome 108.0.0.0,,,2023-01-20 13:50:07,2023-01-20 13:50:24,17.127s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-20 13:50:08,2023-01-20 13:50:12,4.071s,PASSED
+"navigateToUrl(""http://172.18.49.40:8080/login"")",Chrome 108.0.0.0,,,2023-01-20 13:50:12,2023-01-20 13:50:19,7.456s,PASSED
+"setText(findTestObject(""Page_Aprodite/input_Email""), ""testsuperadmin@mailinator.com"")",Chrome 108.0.0.0,,,2023-01-20 13:50:19,2023-01-20 13:50:21,1.435s,PASSED
+"setEncryptedText(findTestObject(""Page_Aprodite/input_Password""), ""5xx1bkCcAlw="")",Chrome 108.0.0.0,,,2023-01-20 13:50:21,2023-01-20 13:50:22,0.779s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-20 13:50:22,2023-01-20 13:50:24,2.069s,PASSED
+"click(findTestObject(""Page_Aprodite/Button Login""))",Chrome 108.0.0.0,,,2023-01-20 13:50:24,2023-01-20 13:50:24,0.585s,PASSED
+,,,,,,,
+Test Cases/TC02_Invalid_Email,Chrome 108.0.0.0,,,2023-01-20 13:50:24,2023-01-20 13:50:35,10.733s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-20 13:50:25,2023-01-20 13:50:28,2.571s,PASSED
+"navigateToUrl(""http://172.18.49.40:8080/login"")",Chrome 108.0.0.0,,,2023-01-20 13:50:28,2023-01-20 13:50:30,2.418s,PASSED
+"setText(findTestObject(""Page_Aprodite/input_Email""), """")",Chrome 108.0.0.0,,,2023-01-20 13:50:30,2023-01-20 13:50:31,0.832s,PASSED
+"setText(findTestObject(""Page_Aprodite/input_Password""), ""test123"")",Chrome 108.0.0.0,,,2023-01-20 13:50:31,2023-01-20 13:50:32,0.793s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-20 13:50:32,2023-01-20 13:50:34,2.010s,PASSED
+"click(findTestObject(""Page_Aprodite/Button Login""))",Chrome 108.0.0.0,,,2023-01-20 13:50:34,2023-01-20 13:50:34,0.514s,PASSED
+"verifyElementPresent(findTestObject(""Page_Aprodite/Invalid_username""), 0)",Chrome 108.0.0.0,,,2023-01-20 13:50:34,2023-01-20 13:50:35,0.563s,PASSED
+,,,,,,,
+Test Cases/TC03_Invalid_Password,Chrome 108.0.0.0,,,2023-01-20 13:50:35,2023-01-20 13:50:46,11.328s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-20 13:50:36,2023-01-20 13:50:39,3.113s,PASSED
+"navigateToUrl(""http://172.18.49.40:8080/login"")",Chrome 108.0.0.0,,,2023-01-20 13:50:39,2023-01-20 13:50:41,2.255s,PASSED
+"setText(findTestObject(""Page_Aprodite/input_Email""), ""testsuperadmin@mailinator.com"")",Chrome 108.0.0.0,,,2023-01-20 13:50:41,2023-01-20 13:50:42,1.195s,PASSED
+"setText(findTestObject(""Page_Aprodite/input_Password""), """")",Chrome 108.0.0.0,,,2023-01-20 13:50:42,2023-01-20 13:50:43,0.983s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-20 13:50:43,2023-01-20 13:50:45,2.014s,PASSED
+"click(findTestObject(""Page_Aprodite/Button Login""))",Chrome 108.0.0.0,,,2023-01-20 13:50:45,2023-01-20 13:50:46,0.488s,PASSED
+"verifyElementPresent(findTestObject(""Page_Aprodite/Invalid_Password""), 0)",Chrome 108.0.0.0,,,2023-01-20 13:50:46,2023-01-20 13:50:46,0.525s,PASSED
+,,,,,,,
+Test Cases/TC04_Logout,Chrome 108.0.0.0,,,2023-01-20 13:50:46,2023-01-20 13:51:00,14.059s,PASSED
+"callTestCase(findTestCase(""TC01_Valid_Login""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-20 13:50:47,2023-01-20 13:50:56,9.119s,PASSED
+"click(findTestObject(""Page_Aprodite/Photo_profile""))",Chrome 108.0.0.0,,,2023-01-20 13:50:56,2023-01-20 13:50:58,1.806s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-01-20 13:50:58,2023-01-20 13:51:00,2.014s,PASSED
+"click(findTestObject(""Page_Aprodite/Logout_Button""))",Chrome 108.0.0.0,,,2023-01-20 13:51:00,2023-01-20 13:51:00,0.467s,PASSED

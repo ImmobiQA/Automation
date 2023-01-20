@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01_Login,Chrome 108.0.0.0,,,2023-01-20 13:48:01,2023-01-20 13:49:03,1m - 2.671s,FAILED
+,,,,,,,
+Test Cases/TC01_Valid_Login,Chrome 108.0.0.0,,,2023-01-20 13:48:01,2023-01-20 13:48:35,34.319s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-20 13:48:02,2023-01-20 13:48:07,5.210s,PASSED
+"navigateToUrl(""http://172.18.49.40:8080/login"")",Chrome 108.0.0.0,,,2023-01-20 13:48:07,2023-01-20 13:48:35,28.386s,FAILED
+,,,,,,,
+Test Cases/TC02_Invalid_Email,Chrome 108.0.0.0,,,2023-01-20 13:48:35,2023-01-20 13:48:41,5.392s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-20 13:48:36,2023-01-20 13:48:41,4.603s,FAILED
+,,,,,,,
+Test Cases/TC03_Invalid_Password,Chrome 108.0.0.0,,,2023-01-20 13:48:41,2023-01-20 13:48:58,17.041s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-20 13:48:42,2023-01-20 13:48:44,1.843s,PASSED
+"navigateToUrl(""http://172.18.49.40:8080/login"")",Chrome 108.0.0.0,,,2023-01-20 13:48:44,2023-01-20 13:48:58,14.428s,FAILED
+,,,,,,,
+Test Cases/TC04_Logout,Chrome 108.0.0.0,,,2023-01-20 13:48:58,2023-01-20 13:49:03,5.286s,FAILED
+"callTestCase(findTestCase(""TC01_Valid_Login""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-20 13:48:58,2023-01-20 13:49:03,4.770s,FAILED
