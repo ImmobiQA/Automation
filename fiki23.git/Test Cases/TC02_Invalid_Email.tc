@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_Invalid_Email</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fba85e77-4dfe-4add-a9ed-8ec3116f3c4f</testCaseGuid>
-</TestCaseEntity>
